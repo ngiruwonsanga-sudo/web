@@ -1,17 +1,8 @@
-#left{
-	float:left;
-	margin:30px;
-	width: 350px;
-}
-#right{
-	float: right;
-	margin:1px;
-	width:980px;
-}
 body{
 	line-height: 1.5;
 	text-align: justify;
 	font-family: arial;
 	font-size: 22px;
 	margin-right: 50px;
+	color:black;
 }
