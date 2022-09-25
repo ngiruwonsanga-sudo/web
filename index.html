@@ -3,53 +3,64 @@
 <title>First webpage</title>
 <style type="text/css">
 	body{
-		margin: 200px 150px 150px 150px;
 		line-height:1;
-		color: red;
-		font-weight: bold;
+		color: black;
+		font-weight:bold;
+		margin: 50px 90px 50px 50px;
+	}
+	#left{
+		float: left;
+		width:350px;
+		margin: 30px;
+	}
+	#right{
+		float: right;
+		width:900px;
+		margin: 1px;
 	}
 
 </style>
-
 </head>
 <body>
-<font color="blue" size="13">Welcome to our first webpage.<br>
-This is MCsE Year 2 class.</font>
+<font color="blue" size="10">Welcome to our first webpage</font>
+	<div id="left">
+<h1>This is MCsE Year 2 class.</h1>
 <p>
-<h1>REGISTRATION OF STUDENTS</h1>
-<h2>REGISTRATION OF STUDENTS</h2>
+<h2>Welcome to our website</h2>
 <p>
 	<audio src="ThinkAboutLoveDolly Parton.mp3" controls></audio>
 </p>
 <p>
-</p><P>
-	<table><tr><td>
+	<a href="Layout.html">University of Rwanda</a>
+
+</p>
+
+	</div>
+<div id="right">
+	<h1>REGISTRATION OF STUDENTS</h1>
+<table cellspacing="10"><tr><td>
 <label for="reg">Registration nr </label></td>
 <td><input type="text" name="regnr" id="reg"></td></tr>
 <tr><td><label for="f">First Name</label></td>
 <td><input type="text" name="fname" id="f"></td></tr>
 <tr><td><label for="l">Family Name</label></td>
-		</td><input type="text" name="lname" id="l"></td></tr>
-<tr><td>school:</td><td>
-<input type="radio" name="sch">
-Education<p>
-<input type="radio" name="sch">
-SNIE<p></td></tr>
-<tr><td>Department:<select name="dpt"></td><td>
+		<td><input type="text" name="lname" id="l"></td></tr>
+<tr><td>school:</td><td><input type="radio" name="sch">
+Education</td></tr>
+<tr><td></td><td><input type="radio" name="sch">
+SNIE</tr>
+<tr><td>Department:</td><td><select name="dpt">
 <option>ECE</option>
 <option>Education</option>
 <option>HLE</option>
 <option SELECTED>MSPE</option>
-</select></td><tr>
+</select></td></tr>
 <tr><td colspan=2>
-	<textarea name="feedbk" cols=50 rows="20" maxlength="100">
+	<textarea name="feedbk" cols=35 rows="8" maxlength="100">
 		Leave your comments here...
 	</textarea></td></tr>
 </table>
-<p>
-	<a href="MCsE.html">MCsE</a>
 
-</p>
 <p>
 	<video src="NASA.mkv" height=200 width=300 controls></video>
 </p>
@@ -58,6 +69,8 @@ SNIE<p></td></tr>
 </p>
 <p>
 <input type="button" name="save" value="SAVE">
+</p>
+</div>
+	
 </body>
 </html>
-
